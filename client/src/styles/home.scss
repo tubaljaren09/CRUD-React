@@ -1,0 +1,22 @@
+.home-main {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  table {
+    border: 1px solid red;
+    width: 800px;
+    height: 500px;
+    th,
+    td {
+      border: 1px solid red;
+      text-align: center;
+      button {
+        padding: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
